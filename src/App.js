@@ -1,10 +1,5 @@
-
 //Import de react router dom pour les routes
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Outlet,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Aromates from "./pages/Aromates";
@@ -12,12 +7,12 @@ import Connexion from "./pages/Connexion";
 import Astuces from "./pages/Astuces";
 import Contact from "./pages/Contact";
 import Fruits from "./pages/Fruits";
-import Home from "./pages/Home"
-import Journal from './pages/Journal'
-import Legumes from "./pages/Legumes"
+import Home from "./pages/Home";
+import Journal from "./pages/Journal";
+import Legumes from "./pages/Legumes";
 
-import"./styles/styles.scss";
-
+import "./styles/styles.scss";
+import Footer from "./components/Footer";
 
 //Creation de la structure des pages dans un layout avec outlet de react router dom
 const Layout = () => {
@@ -25,7 +20,7 @@ const Layout = () => {
     <>
       <Navbar />
       <Outlet />
-  
+      <Footer />
     </>
   );
 };
@@ -34,7 +29,7 @@ const Layout = () => {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Home />,
   },
   {
     path: "/",
@@ -68,11 +63,8 @@ const router = createBrowserRouter([
         path: "/connexion",
         element: <Connexion />,
       },
-
     ],
   },
-
-
 ]);
 
 const App = () => {

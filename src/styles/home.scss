@@ -25,28 +25,41 @@ h2 {
   text-align: center;
   .btn1 {
     margin-right: 30px;
-    border: #21b6ae 1px solid;
+    border: rgba(95, 211, 95, 0.5) 1px solid;
     background: none;
     padding: 10px 25px;
-    color: #21b6ae;
+    color:rgba(95, 211, 95, 0.5);
     transition: all 0.5s;
     &:hover {
       color: white;
-      background: #21b6ae;
+      background: rgba(95, 211, 95, 0.5);
       transition: all 0.5s;
     }
   }
   .btn2 {
     margin-left: 30px;
     border: none;
-    background: #21b6ae;
+    background: rgba(95, 211, 95, 0.5);
     padding: 10px 25px;
     color: white;
     &:hover {
-      color: #21b6ae;
+      color: rgba(95, 211, 95, 0.5);
       background: white;
-      border: #21b6ae 1px solid;
+      border: rgba(95, 211, 95, 0.5) 1px solid;
       transition: all 0.5s;
     }
   }
+}
+section{
+  width: 80%;
+  margin: 30px auto;
+  h3 {
+    font-size: 30px;
+    margin: 20px auto;
+  }
+  p{
+    margin: 20px auto;
+    line-height: 30px;
+  }
+
 }
