@@ -1,31 +1,37 @@
 import React from "react";
-import jsonData from '../../listing.json'
 
-const produits = [
-  ["Artichaud", "Brocoli", "Poireaux", "Pomme de terre", "Salsifi", "Maïs", "Choux", "Epinard", "Haricot"] ,
-  ["Banane", "Mangue", "Pomme", "Citron", "Pamplemousse", "Raisin", "Litchi"] ,
-  ["Thym", "Basilic", "Romarin", ],
-];
-  
+import jsonData from './listing.json'
 
-console.log(jsonData);
+import './card.scss'
 
 
-const bloc = produits.map((itemaccueil) => (
 
-    // Item nombre aléatoire entre 1 et 3
+const produits = ["Aromates", "Fruits", "Legumes"]
 
+const bloc = produits.map((itemaccueil) => {
 
-    <div key={itemaccueil}> 
-Découvrez les {produits[Math.floor(Math.random() * (2 - 0 + 1)) + 0][[Math.floor(Math.random() * (2 - 0 + 1)) + 0]]}
-</div>
-));
+  //Nombre aléatoire entre 0 et 2
+    const test = produits[[Math.floor(Math.random() * (2 - 0 + 1)) + 0]] 
+  //Nombre aléatoire entre 0 et 44
+    const hasardliste = [[Math.floor(Math.random() * (44 - 0 )) + 0]]
+
+   //Rendu possible 3 375 000 possibilité
+  return ( <div key={itemaccueil}> 
+  <img src={jsonData[test][hasardliste].image} alt={jsonData[test][hasardliste].nom}></img>
+  <h4>Comment se cultive {jsonData[test][hasardliste].nom} ?</h4>
+  <p>Quand planter : {jsonData[test][hasardliste].saison} </p>
+  <p>Quand récolter : {jsonData[test][hasardliste].recolte} </p>
+  <p>Mesure : {jsonData[test][hasardliste].taille} </p>
+  <p>Type de sol : {jsonData[test][hasardliste].sol} </p>
+  </div>)
+
+});
 
 const Card = () => {
   return (
-    <>
-      <div>{bloc}</div>
-    </>
+  
+      <div className="culture">{bloc}</div>
+
   );
 };
 
