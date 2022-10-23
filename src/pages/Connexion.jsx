@@ -7,7 +7,7 @@ const Connexion = () => {
   return (
     <div className='profil-page'>
   <div className='log-container'>
-    <Log seConnecter={false} sinscrire={true} />
+    <Log signin={false} signup={true} />
     <div className='img-container'>
       <img src={Login} alt="img-log" />
     </div>

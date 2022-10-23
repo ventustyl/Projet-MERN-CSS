@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import SignInForm from "./SignInForm";
 import SignUpForm from "./SignUpForm";
 
-const Log = ( props ) => {
+const Log = (props) => {
+  //Variable
   const [signUpModal, setSignUpModal] = useState(props.signup);
   const [signInModal, setSignInModal] = useState(props.signin);
 
+  //Fonction
   const handleModals = (e) => {
     if (e.target.id === "register") {
       setSignInModal(false);
@@ -16,6 +18,7 @@ const Log = ( props ) => {
     }
   };
 
+  //Rendu
   return (
     <div className="connection-form">
       <div className="form-container">
