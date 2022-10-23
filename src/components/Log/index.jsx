@@ -1,25 +1,21 @@
 import React, { useState } from "react";
-import "../../styles/connexion.scss";
-import SeConnecter from "./SeConnecter";
-import Sinscrire from "./Sinscrire";
+import SignInForm from "./SignInForm";
+import SignUpForm from "./SignUpForm";
 
-const Log = (props) => {
-  //Stockage
-  const [sinscrireModal, setSinscrireModal] = useState(props.sinscrire);
-  const [seConnecterModal, setSeConnecterModal] = useState(props.SeConnecter);
+const Log = ( props ) => {
+  const [signUpModal, setSignUpModal] = useState(props.signup);
+  const [signInModal, setSignInModal] = useState(props.signin);
 
-  // Logique
   const handleModals = (e) => {
     if (e.target.id === "register") {
-      setSinscrireModal(true);
-      setSeConnecterModal(false);
+      setSignInModal(false);
+      setSignUpModal(true);
     } else if (e.target.id === "login") {
-      setSeConnecterModal(true);
-      setSinscrireModal(false);
+      setSignUpModal(false);
+      setSignInModal(true);
     }
   };
 
-  // Rendu
   return (
     <div className="connection-form">
       <div className="form-container">
@@ -27,20 +23,20 @@ const Log = (props) => {
           <li
             onClick={handleModals}
             id="register"
-            className={sinscrireModal ? "active-btn" : null}
+            className={signUpModal ? "active-btn" : null}
           >
             S'inscrire
           </li>
           <li
             onClick={handleModals}
             id="login"
-            className={seConnecterModal ? "active-btn" : null}
+            className={signInModal ? "active-btn" : null}
           >
             Se connecter
           </li>
         </ul>
-        {sinscrireModal && <Sinscrire />}
-        {seConnecterModal && <SeConnecter />}
+        {signUpModal ? <SignUpForm /> : null}
+        {signInModal ? <SignInForm /> : null}
       </div>
     </div>
   );
