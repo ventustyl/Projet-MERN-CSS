@@ -16,6 +16,8 @@ import Footer from "./components/Footer";
 import { UidContext } from "./components/AppContext";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { useDispatch } from "react-redux";
+import { getUser } from "./actions/user.action";
 
 //Creation de la structure des pages dans un layout avec outlet de react router dom
 const Layout = () => {
@@ -72,6 +74,7 @@ const router = createBrowserRouter([
 
 const App = () => {
   const [uid, setUid] = useState(null);
+  const dispatch = useDispatch()
 
   useEffect(() => {
     const fetchToken = async () => {
@@ -84,7 +87,9 @@ const App = () => {
         .catch((err) => console.log("Pas de token"));
     };
     fetchToken();
-  }, []);
+
+    if (uid) dispatch(getUser(uid));
+  }, [uid, dispatch]);
 
   return (
     <div>
