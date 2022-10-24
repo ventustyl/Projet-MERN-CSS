@@ -2,7 +2,9 @@
 .profil-page {
     margin: 80px auto 0;
     max-width: 1200px;
-  
+    .static{
+      position: static;
+    }
     .icons {
       top: 55px;
     }

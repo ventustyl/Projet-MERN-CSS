@@ -13,6 +13,9 @@ import Legumes from "./pages/Legumes";
 
 import "./styles/styles.scss";
 import Footer from "./components/Footer";
+import { UidContext } from "./components/AppContext";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 //Creation de la structure des pages dans un layout avec outlet de react router dom
 const Layout = () => {
@@ -68,9 +71,26 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
+  const [uid, setUid] = useState(null);
+
+  useEffect(() => {
+    const fetchToken = async () => {
+      await axios({
+        method: "get",
+        url: `${process.env.REACT_APP_API_URL}jwtid`,
+        withCredentials: true,
+      })
+        .then((res) => setUid(res.data))
+        .catch((err) => console.log("Pas de token"));
+    };
+    fetchToken();
+  }, []);
+
   return (
     <div>
-      <RouterProvider router={router} />
+      <UidContext.Provider value={uid}>
+        <RouterProvider router={router} />
+      </UidContext.Provider>
     </div>
   );
 };

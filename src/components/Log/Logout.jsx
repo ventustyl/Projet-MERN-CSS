@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import cookie from 'js-cookie'
-
+import LogoutIcon from '../../images/icon/logout.svg'
 
 const Logout = () => {
 
@@ -19,11 +19,13 @@ const removeCookie = (key) => {
         .then(()=> removeCookie('jwt'))
         .catch((err) => console.log(err))
 
-        window.location.reload();
+        // window.location.reload();
+        window.location = "/";
     }
   return (
  <li onClick={logout}>
-    <img src="./img/icons/logout.svg" alt="deconnexion"/>
+   Se déconnecter ici 
+   <img src={LogoutIcon} alt="deconnexion"/>
  </li>
   )
 }

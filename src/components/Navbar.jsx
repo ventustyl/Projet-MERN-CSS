@@ -1,10 +1,17 @@
 // import de react
-import React from "react";
+import React, { useContext } from "react";
+
+import { UidContext } from "./AppContext";
+
 // import de scsss
 import "./navbar.scss";
 
+
+
 //import du logo
 import Logo from "../images/icon.png";
+
+
 
 // Variable qui contient les pages
 const pages = [
@@ -14,7 +21,7 @@ const pages = [
   "Aromates",
   "Astuces",
   "Contact",
-  "Connexion",
+
 ];
 const listItems = pages.map((link) => (
   <li key={link}>
@@ -22,11 +29,21 @@ const listItems = pages.map((link) => (
   </li>
 ));
 
+
 const Navbar = () => {
+
+  const uid = useContext(UidContext)
+
   return (
     <nav>
       <a href="/"><img src={Logo} alt="Logo Potager" /></a>
-      <ul> {listItems} </ul>
+      <ul> {listItems} 
+      {uid ? (
+        <li><a href="/connexion"> Pseudo</a></li>
+       ) : ( <li><a href="/connexion"> Connexion</a></li>
+      )}
+      
+      </ul>
     </nav>
   );
 };
