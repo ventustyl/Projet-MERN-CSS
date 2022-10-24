@@ -8,6 +8,7 @@ import "../styles/home.scss";
 const pages = ["Fruits", "Aromates", "Legumes"];
 
 
+
 // Item nombre aléatoire entre 1 et 3
 const Item = pages[Math.floor(Math.random() * (2 - 0 + 1)) + 0];
 

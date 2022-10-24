@@ -9,7 +9,7 @@
                 "sol": "N'apprécie pas vraiment les terres argileuses, lourdes et humides. ",
                 "exposition" : "Ensoleillée",
                 "conservation": "quelques semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/ail.png"
             },
             {
                 "nom": "l'Artichaut",
@@ -19,7 +19,7 @@
                 "sol": "Plutôt léger, riche et bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/artichaut.png"
             },
             {
                 "nom": "l'Asperge",
@@ -29,7 +29,7 @@
                 "sol": "Léger, bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 3 à 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/asperges.png"
             },
             {
                 "nom": "l'Aubergine",
@@ -39,7 +39,7 @@
                 "sol": "Assez riche",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/aubergine.png"
             },
             {
                 "nom": "l'Avocat",
@@ -49,7 +49,7 @@
                 "sol": "Sols neutres, fertiles, humides , à tendance argileuse",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 7 à 10 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/avocat.png"
             },
             {
                 "nom": "la Bette",
@@ -59,7 +59,7 @@
                 "sol": "Plutôt riche et acide",
                 "exposition" : "Ensoleillée, ombre légère",
                 "conservation": "de 4 à 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/bettes.png"
             },
             {
                 "nom": "la Betterave",
@@ -69,7 +69,7 @@
                 "sol": "Léger, humifère, ph neutre",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 3 à 4 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/betterave.png"
             },
             {
                 "nom": "la Blette",
@@ -79,7 +79,7 @@
                 "sol": "Plutôt riche et acide",
                 "exposition" : "Ensoleillée, ombre légère",
                 "conservation": "de 4 à 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/bettes.png"
             },
             {
                 "nom": "le Brocoli",
@@ -89,7 +89,7 @@
                 "sol": "Frais, profond et humide et riche",
                 "exposition" : "Ensoleillée",
                 "conservation": "5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/brocoli.png"
             },
             {
                 "nom": "la Carotte",
@@ -99,7 +99,7 @@
                 "sol": "Sableux et léger",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "10 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/carotte.png"
             },
             {
                 "nom": "le Céleri",
@@ -109,7 +109,7 @@
                 "sol": "Riche et frais",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/celeri.png"
             },
             {
                 "nom": "le Chou-fleur",
@@ -119,7 +119,7 @@
                 "sol": "Frais, profond et humide et riche",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 2 à 3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/chouxfleur.png"
             },
             {
                 "nom": "le Choux",
@@ -129,7 +129,7 @@
                 "sol": "Frais, profond et humide et riche",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 2 à 5 jours ",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/chou.png"
             },
             {
                 "nom": "la Citrouille",
@@ -139,7 +139,7 @@
                 "sol": "Riche et bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "jusqu'à 6 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/citrouille.png"
             },
             {
                 "nom": "le Concombre",
@@ -149,7 +149,7 @@
                 "sol": "Ordinaire mais bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/comconbre.png"
             },
             {
                 "nom": "la Courge",
@@ -159,17 +159,17 @@
                 "sol": "Riche et bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "jusqu'à 6 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/courge.png"
             },
             {
                 "nom": "la Courgette",
-                "saison": "Se plante de mars à aout",
+                "saison": "Se plante de mars à août",
                 "taille": "30 à 40 cm de hauteur",
                 "recolte": "Se récolte 2 mois après semis",
                 "sol": "Plutôt léger et bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/courgette.png"
             },
             {
                 "nom": "l'Échalote",
@@ -179,7 +179,7 @@
                 "sol": "Léger, drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/echalote.png"
             },
             {
                 "nom": "l'Endive",
@@ -189,7 +189,7 @@
                 "sol": "Ordinaire",
                 "exposition" : "Ensoleillée",
                 "conservation": "jusqu'à 6 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/endive.png"
             },
             {
                 "nom": "l'Épinard",
@@ -199,7 +199,7 @@
                 "sol": "Assez riche",
                 "exposition" : "Mi-ombre à ombre",
                 "conservation": "de 4 à 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/epinard.png"
             },
             {
                 "nom": "le Fenouil",
@@ -209,7 +209,7 @@
                 "sol": "Ordinaire à riche",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/fenouil.png"
             },
             {
                 "nom": "la Fève",
@@ -219,7 +219,7 @@
                 "sol": "Léger, pas trop humide",
                 "exposition" : "Ensoleillée",
                 "conservation": "2 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/feve.png"
             },
             {
                 "nom": "le Flageolet",
@@ -229,7 +229,7 @@
                 "sol": "Léger, pas trop humide",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 3 à 4 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/flageolet.png"
             },
             {
                 "nom": "le Haricot",
@@ -239,7 +239,7 @@
                 "sol": "Léger, pas trop humide",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 3 à 4 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/haricot.png"
             },
             {
                 "nom": "la Laitue",
@@ -249,7 +249,7 @@
                 "sol": " Ordinaire",
                 "exposition" : "Ensoleillée, mi-ombre",
                 "conservation": "de 2 à 7 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/laitue.png"
             },
             {
                 "nom": "la Lentille",
@@ -259,7 +259,7 @@
                 "sol": "Léger, voire sablonneux",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 5 à 7 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/lentille.png"
             },
             {
                 "nom": "la Mâche",
@@ -269,7 +269,7 @@
                 "sol": "Ordinaire",
                 "exposition" : "Mi-ombre",
                 "conservation": "de 3 à 4 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/mache.png"
             },
             {
                 "nom": "le Maîs",
@@ -279,7 +279,7 @@
                 "sol": "Très riche, profond et bien drainé",
                 "exposition" : "Plein soleil",
                 "conservation": "de 2 à 3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/mais.png"
             },
             {
                 "nom": "le Navet",
@@ -289,17 +289,17 @@
                 "sol": "Riche en humus, bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "plusieurs semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/navet.png"
             },
             {
                 "nom": "l'Oignon",
-                "saison": "Se plante toute l'année selon variété",
+                "saison": "Se plante toute l'année selon variétés",
                 "taille": "80 à 100 cm de hauteur",
-                "recolte": "Se récolte toute l'année selon variété",
+                "recolte": "Se récolte toute l'année selon variétés",
                 "sol": "Léger, drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "environ 6 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/oignon.png"
             },
             {
                 "nom": "le Panais",
@@ -309,7 +309,7 @@
                 "sol": "Riche et frais",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/panais.png"
             },
             {
                 "nom": "la Patate douce",
@@ -319,7 +319,7 @@
                 "sol": "Plutôt léger, rîche et peu humide",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 2 à 3 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/patatedouce.png"
             },
             {
                 "nom": "le Pâtisson",
@@ -329,7 +329,7 @@
                 "sol": "riche, meuble, lourd, frais",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 3 à 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/patisson.png"
             },
             {
                 "nom": "le Petit pois",
@@ -339,7 +339,7 @@
                 "sol": "Riche et plutôt humide",
                 "exposition" : "Ensoleillée à mi-ombre",
                 "conservation": "de 2 à 3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/petitpois.png"
             },
             {
                 "nom": "le Poireau",
@@ -349,7 +349,7 @@
                 "sol": "Léger, drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "environ 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/poireau.png"
             },
             {
                 "nom": "le Poivron",
@@ -359,7 +359,7 @@
                 "sol": "Plutôt léger, riche et bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/poivron.png"
             },
             {
                 "nom": "la Pomme de terre",
@@ -369,7 +369,7 @@
                 "sol": "Plutôt léger, rîche et peu humide",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 2 à 3 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/pommedeterre.png"
             },
             {
                 "nom": "le Potimarron",
@@ -379,7 +379,7 @@
                 "sol": "Riche et bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 3 à 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/potimarron.png"
             },
             {
                 "nom": "le Potiron",
@@ -389,17 +389,17 @@
                 "sol": "Riche et bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 4 à 8 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/potimarron.png"
             },
             {
                 "nom": "le Radis",
-                "saison": "Se plante toute l'année selon variété",
+                "saison": "Se plante toute l'année selon variétés",
                 "taille": "15 à 30 cm de hauteur selon les variétés",
                 "recolte": "Se récolte 4 à 6 semaines après semis",
                 "sol": "Ordinaire mais léger",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/radis.png"
             },
             {
                 "nom": "la Roquette",
@@ -409,7 +409,7 @@
                 "sol": "Ordinaire",
                 "exposition" : "Ensoleillée, mi-ombre",
                 "conservation": "jusqu'à 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/roquette.png"
             },
             {
                 "nom": "la Salade",
@@ -419,7 +419,7 @@
                 "sol": "Ordinaire",
                 "exposition" : "Ensoleillée, mi-ombre",
                 "conservation": "jusqu'à 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/salade.png"
             },
             {
                 "nom": "le Salsifis",
@@ -429,7 +429,7 @@
                 "sol": "Léger, riche et bien drainé",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/salsifi.png"
             },
             {
                 "nom": "la Tomate",
@@ -439,7 +439,7 @@
                 "sol": "Léger, assez riche",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/tomate.png"
             },
             {
                 "nom": "la Vitelotte",
@@ -449,7 +449,7 @@
                 "sol": "Plutôt léger, rîche et peu humide",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 2 à 3 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/legumes/vitelotte.png"
             }
         
     ],
@@ -463,7 +463,7 @@
                 "sol": "Sol calcaire, Sol sableux, Sol caillouteux",
                 "exposition" : "Soleil",
                 "conservation": "jusqu'à 3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/abricot.png"
             },
             {
                 "nom": "l'Acérola",
@@ -473,7 +473,7 @@
                 "sol": "Bien drainé",
                 "exposition" : "Soleil",
                 "conservation": "24 à 48 heures",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/acerola.png"
             },
             {
                 "nom": "l'Airelle",
@@ -483,7 +483,7 @@
                 "sol": "Terre de bruyère, Humus et Terreau",
                 "exposition" : "Mi-ombre",
                 "conservation": "de 3 à 6 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/airelle.png"
             },
             {
                 "nom": "l'Amande",
@@ -493,7 +493,7 @@
                 "sol": "Sol calcaire et Sol caillouteux",
                 "exposition" : "Soleil",
                 "conservation": "de 6 à 12 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/amande.png"
             },
             {
                 "nom": "l'Ananas",
@@ -503,7 +503,7 @@
                 "sol": "Sol sableux ou Humus",
                 "exposition" : "Soleil",
                 "conservation": "5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/ananas.png"
             },
             {
                 "nom": "l'Avocat",
@@ -513,7 +513,7 @@
                 "sol": "Terre de bruyère ou Humus",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/avocat.png"
             },
             {
                 "nom": "la Banane",
@@ -523,7 +523,7 @@
                 "sol": "Humide",
                 "exposition" : "Soleil",
                 "conservation": "de 1 à 2 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/banane.png"
             },
             {
                 "nom": "le Brugnon",
@@ -533,7 +533,7 @@
                 "sol": "Sol sableux, Sol caillouteux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/brugnon.png"
             },
             {
                 "nom": "le Cassis",
@@ -543,7 +543,7 @@
                 "sol": "Sol argileux ou Humus",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "4 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/cassis.png"
             },
             {
                 "nom": "la Cerise",
@@ -553,7 +553,7 @@
                 "sol": "Sol calcaire, Sol sableux, Sol caillouteux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/cerise.png"
             },
             {
                 "nom": "la Châtaigne",
@@ -563,17 +563,17 @@
                 "sol": "Tous types de sol",
                 "exposition" : "Ensoleillée",
                 "conservation": "de 5 à 8 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/chataigne.png"
             },
             {
                 "nom": "le Citron",
                 "saison": "Se plante de mars à avril",
-                "taille": "1 à 10m selon variété",
-                "recolte": "Se récolte toute l'année selon variété",
+                "taille": "1 à 10m selon variétés",
+                "recolte": "Se récolte toute l'année selon variétés",
                 "sol": "Sol sableux, Humus ou Terreau",
                 "exposition" : "Soleil",
                 "conservation": "1 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/citron.png"
             },
             {
                 "nom": "la Clémentine",
@@ -583,17 +583,17 @@
                 "sol": "Sol argileux, Sol sableux, Sol caillouteux, Humus ou Terreau",
                 "exposition" : "Soleil",
                 "conservation": "2 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/clementine.png"
             },
             {
                 "nom": "le Coing",
-                "saison": "Se plante toute l'année selon variété",
-                "taille": "cb03c171-0cfe-44b2-a400-5c93c2fb27f2",
+                "saison": "Se plante toute l'année selon variétés",
+                "taille": "3 à 4 m de hauteur",
                 "recolte": "Se récolte de septembre à novembre",
                 "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux ou Humus",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "2 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/coing.png"
             },
             {
                 "nom": "la Cranberry",
@@ -603,7 +603,7 @@
                 "sol": "Humus",
                 "exposition" : "Mi-ombre",
                 "conservation": "3 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/cranberry.png"
             },
             {
                 "nom": "la Datte",
@@ -613,7 +613,7 @@
                 "sol": "Sol sableux",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "Plusieurs semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/datte.png"
             },
             {
                 "nom": "la Figue",
@@ -623,7 +623,7 @@
                 "sol": "Sol calcaire ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "2 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/figue.png"
             },
             {
                 "nom": "la Fraise",
@@ -633,7 +633,7 @@
                 "sol": "Sol drainé",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "de 2 à 3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/fraise.png"
             },
             {
                 "nom": "la Framboise",
@@ -643,7 +643,7 @@
                 "sol": "Sol drainé",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/framboise.png"
             },
             {
                 "nom": "le Fruit de la passion",
@@ -653,7 +653,7 @@
                 "sol": "Sol drainé et Sol sec",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/fruitdelapassion.png"
             },
             {
                 "nom": "la Goyage",
@@ -663,7 +663,7 @@
                 "sol": "Sol drainé",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "2 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/goyave.png"
             },
             {
                 "nom": "la Grenade",
@@ -673,7 +673,7 @@
                 "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux, Terre de bruyère ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "6 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/grenade.png"
             },
             {
                 "nom": "la Groseille",
@@ -683,7 +683,7 @@
                 "sol": "Sol argileux, Sol sableux ou Humus",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/groseille.png"
             },
             {
                 "nom": "la Griotte",
@@ -693,7 +693,7 @@
                 "sol": "Sol neutre",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/griotte.png"
             },
             {
                 "nom": "la Groseille",
@@ -703,7 +703,7 @@
                 "sol": "Sol sableux",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/groseille.png"
             },
             {
                 "nom": "le Kaki",
@@ -713,7 +713,7 @@
                 "sol": "$Sol drainé ou Sol sec",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/kaki.png"
             },
             {
                 "nom": "le Kiwi",
@@ -723,7 +723,7 @@
                 "sol": "Sol neutre ou Sol acide",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "4 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/kiwi.png"
             },
             {
                 "nom": "le Kumquat",
@@ -733,7 +733,7 @@
                 "sol": "Sol sableux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "2 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/kumquat.png"
             },
             {
                 "nom": "le Litchi",
@@ -743,7 +743,7 @@
                 "sol": "Terre de bruyère",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "2 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/litchi.png"
             },
             {
                 "nom": "la Mandarine",
@@ -753,7 +753,7 @@
                 "sol": "Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/mandarine.png"
             },
             {
                 "nom": "la Mangue",
@@ -763,7 +763,7 @@
                 "sol": "Sol sableux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "2 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/mangue.png"
             },
             {
                 "nom": "le Marron",
@@ -773,7 +773,7 @@
                 "sol": "Sol neutre ou Sol acide",
                 "exposition" : "Ensoleillée",
                 "conservation": " 5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/marron.png"
             },
             {
                 "nom": "le Melon",
@@ -783,7 +783,7 @@
                 "sol": "Sol calcaire ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/melon.png"
             },
             {
                 "nom": "la Merise",
@@ -793,7 +793,7 @@
                 "sol": "Sol neutre ou Sol acide",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/merise.png"
             },
             {
                 "nom": "la Mûre",
@@ -803,7 +803,7 @@
                 "sol": "Sol calcaire, Sol sableux ou Sol caillouteux",
                 "exposition" : "Ensoleillée",
                 "conservation": "jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/mure.png"
             },
             {
                 "nom": "la Myrtille",
@@ -813,7 +813,7 @@
                 "sol": "Sol acide",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "1 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/myrtille.png"
             },
             {
                 "nom": "la Nectarine",
@@ -823,7 +823,7 @@
                 "sol": "Sol sableux ,Sol caillouteux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/nectarine.png"
             },
             {
                 "nom": "l'Orange",
@@ -833,7 +833,7 @@
                 "sol": "Sol sableux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/orange.png"
             },
             {
                 "nom": "le Pamplemousse",
@@ -843,7 +843,7 @@
                 "sol": "Sol sableux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/pamplemousse.png"
             },
             {
                 "nom": "la Pastèque",
@@ -853,7 +853,7 @@
                 "sol": "Sol sableux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/pastheque.png"
             },
             {
                 "nom": "la Pêche",
@@ -863,7 +863,7 @@
                 "sol": "Sol sableux ,Sol caillouteux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/peche.png"
             },
             {
                 "nom": "la Poire",
@@ -873,7 +873,7 @@
                 "sol": "Sol argileux, Sol sableux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/poire.png"
             },
             {
                 "nom": "la Pomme",
@@ -883,7 +883,7 @@
                 "sol": "Sol argileux, Sol calcaire ou Humus",
                 "exposition" : "Mi-ombre",
                 "conservation": "6 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/pomme.png"
             },
             {
                 "nom": "la Prune",
@@ -893,7 +893,7 @@
                 "sol": "Sol argileux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/prune.png"
             },
             {
                 "nom": "le Raisin",
@@ -903,23 +903,13 @@
                 "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/fruits/raisin.png"
             }
         
     ],
     "Aromates": [
         
-            {
-                "nom": "le Bigaradier",
-                "saison": "Se plante au primtemps et automne",
-                "taille": "2 à 10 m de hauteur",
-                "recolte": "Se récolte au primtemps et l'été",
-                "sol": "Sol sableux, Sol caillouteux, Humus ou Terreau",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
-            },
-            {
+               {
                 "nom": "l'Ail",
                 "saison": "Se plante en février, mars, octobre ou novembre",
                 "taille": "60cm de hauteur",
@@ -927,7 +917,7 @@
                 "sol": "N'apprécie pas vraiment les terres argileuses, lourdes et humides. ",
                 "exposition" : "Ensoleillée",
                 "conservation": "quelques semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/ail.png"
             },
             {
                 "nom": "l'Aneth",
@@ -937,7 +927,7 @@
                 "sol": "Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "2 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/aneth.png"
             },
             {
                 "nom": "l'Anis",
@@ -947,7 +937,7 @@
                 "sol": "Sol calcaire, Sol sableux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 ans",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/anis.png"
             },
             {
                 "nom": "l'Armoise",
@@ -957,7 +947,7 @@
                 "sol": "Sol drainé ou sol sec",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "3 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/armoise.png"
             },
             {
                 "nom": "l'Aurore",
@@ -967,7 +957,7 @@
                 "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux ou Humus",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "1 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/aurore.png"
             },
             {
                 "nom": "la Badiane",
@@ -977,7 +967,7 @@
                 "sol": "Terre de bruyère, Humus ou Terreau",
                 "exposition" : "Mi-ombre",
                 "conservation": "3 ans",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/badiane.png"
             },
             {
                 "nom": "le Basilic",
@@ -987,7 +977,17 @@
                 "sol": "Sol neutre",
                 "exposition" : "Ensoleillée",
                 "conservation": "10 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/basilic.png"
+            },
+            {
+                "nom": "le Bigaradier",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "2 à 10 m de hauteur",
+                "recolte": "Se récolte au primtemps et l'été",
+                "sol": "Sol sableux, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 mois",
+                "image": "/cat/aromates/bigaradier.png"
             },
             {
                 "nom": "la Bourrache",
@@ -997,7 +997,7 @@
                 "sol": "Sol neutre",
                 "exposition" : "Ensoleillée",
                 "conservation": "2 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/bourrache.png"
             },
             {
                 "nom": "la Cannelle",
@@ -1007,7 +1007,7 @@
                 "sol": "Humus ou Terreau",   
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "2 ans",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/canelle.png"
             },
             {
                 "nom": "le Câpre",
@@ -1017,7 +1017,7 @@
                 "sol": "Sol calcaire, Sol sableux ou Sol caillouteux",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 ans",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/capre.png"
             },
             {
                 "nom": "la Capucine",
@@ -1027,7 +1027,7 @@
                 "sol": "Sol calcaire,, Sol sableux, Sol caillouteux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/capucine.png"
             },
             {
                 "nom": "le Cardamome",
@@ -1037,7 +1037,7 @@
                 "sol": "Humus ou Terreau",
                 "exposition" : "Mi-ombre",
                 "conservation": "3 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/cardamome.png"
             },
             {
                 "nom": "le Cerfeuil",
@@ -1047,7 +1047,7 @@
                 "sol": "Sol sableux, Humus ou Terreau",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/cerfeuil.png"
             },
             {
                 "nom": "la Ciboulette",
@@ -1057,7 +1057,7 @@
                 "sol": "Humus ou Terreau",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/ciboulette.png"
             },
             {
                 "nom": "la Citronnelle",
@@ -1067,7 +1067,7 @@
                 "sol": "Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "5 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/citronelle.png"
             },
             {
                 "nom": "le Coriandre",
@@ -1077,7 +1077,7 @@
                 "sol": "60 à 100 cm de hauteur",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/coriandre.png"
             },
             {
                 "nom": "le Cresson",
@@ -1087,7 +1087,7 @@
                 "sol": "Sol argileux, Sol calcaire, Sol sableux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/cresson.png"
             },
             {
                 "nom": "le Cumin",
@@ -1097,7 +1097,7 @@
                 "sol": "Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "4 ans",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/cumin.png"
             },
             {
                 "nom": "le Curcuma",
@@ -1107,7 +1107,7 @@
                 "sol": "Sol sableux, Humus ou Terreau",
                 "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "4 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/curcuma.png"
             },
             {
                 "nom": "l'Echalote",
@@ -1117,7 +1117,7 @@
                 "sol": "Sol calcaire, Sol sableux ou Sol caillouteux",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 mois",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/echalote.png"
             },
             {
                 "nom": "l'Estragon",
@@ -1127,7 +1127,7 @@
                 "sol": "Sol argileux, Sol sableux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "3 jours",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/estragon.png"
             },
             {
                 "nom": "le Fenouil",
@@ -1137,7 +1137,7 @@
                 "sol": "Sol sableux, Sol caillouteux ou Humus",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/fenouil.png"
             },
             {
                 "nom": "le Gingembre",
@@ -1147,7 +1147,7 @@
                 "sol": "Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "2 semaines",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/gingembre.png"
             },
             {
                 "nom": "le Girofle",
@@ -1157,207 +1157,207 @@
                 "sol": "Sol neutre ou Sol acide",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/girofle.png"
             },
             {
                 "nom": "le Houblon",
-                "saison": 25,
-                "taille": "753a7eba-5d36-4c6c-90a1-9df80d13f8bc",
-                "recolte": true,
-                "sol": "$2,156.25",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "saison": "Se plante au primtemps et automne",
+                "taille": "5 à 10 m de hauteur",
+                "recolte": "Se récolte d'août à septembre",
+                "sol": "Sol calcaire, Sol sableux, Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 an",
+                "image": "/cat/aromates/houblon.png"
             },
             {
                 "nom": "le Laurier",
-                "saison": 26,
-                "taille": "934ac109-8d9a-4100-8676-bc6af10585fd",
-                "recolte": false,
-                "sol": "$1,379.75",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "saison": "Se plante à mars à mai",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 jours",
+                "image": "/cat/aromates/laurier.png"
             },
             {
                 "nom": "la Marjolaine",
-                "saison": 27,
-                "taille": "35f737f0-a274-47e6-8470-01f6eabd1134",
-                "recolte": false,
-                "sol": "$1,076.30",
+                "saison": "Se plante de mai à juin",
+                "taille": "30 à 60 cm de hauteur",
+                "recolte": "Se récolte de juillet à octobre",
+                "sol": "Sol sableux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/marjolaine.png"
             },
             {
                 "nom": "la Menthe",
-                "saison": 28,
-                "taille": "59b1cd20-53ef-484e-94a8-e23783881e1f",
-                "recolte": false,
-                "sol": "$2,921.59",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "saison": "Se plante au primtemps",
+                "taille": "20 à 100 cm selon s",
+                "recolte": "Se récolte 2 à 4 mois après semis",
+                "sol": "Sol humide",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "10 jours",
+                "image": "/cat/aromates/menthe.png"
             },
             {
                 "nom": "la Moutarde",
-                "saison": 29,
-                "taille": "020b2b2d-65f8-4823-94ef-2f62ed2e8880",
-                "recolte": true,
-                "sol": "$1,050.68",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "saison": "Se plante de mars à octobre",
+                "taille": "60 à 150 cm de hauteur",
+                "recolte": "Se récolte toute l'année selon variétés",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 ans",
+                "image": "/cat/aromates/moutarde.png"
             },
             {
                 "nom": "la Muscade",
-                "saison": 30,
-                "taille": "37fe5ea7-9f69-4131-a361-80a19dc0d832",
-                "recolte": false,
-                "sol": "$1,043.60",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "5 à 10 m de hauteur",
+                "recolte": "Se récolte d'octobre à janvier",
+                "sol": "Sol argileux, Sol sableux, Terre de bruyère ou Humus",
                 "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "conservation": "6 mois",
+                "image": "/cat/aromates/muscade.png"
             },
             {
                 "nom": "l'Oignon",
-                "saison": 31,
-                "taille": "3ced1971-a883-4fa8-b84f-a7d632b50389",
-                "recolte": false,
-                "sol": "$3,818.48",
+                "saison": "Se plante de févier à novembre",
+                "taille": "45 à 100 cm",
+                "recolte": "Se récolte de mai à novembre",
+                "sol": "Sol calcaire ou Sol sableux",
                 "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "conservation": "10 mois",
+                "image": "/cat/aromates/oignon.png"
             },
             {
                 "nom": "l'Origan",
-                "saison": 32,
-                "taille": "abd59e0f-76d8-4952-8376-61a6b9640bf3",
-                "recolte": false,
-                "sol": "$2,978.87",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "30 à 100 cm de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Sol calcaire, Sol sableux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/origan.png"
             },
             {
                 "nom": "le Persil",
-                "saison": 33,
-                "taille": "1e953f6d-7644-435c-8098-68d67be8493b",
-                "recolte": true,
-                "sol": "$3,675.46",
-                "exposition" : "Ensoleillée",
+                "saison": "Se plante de mars à août",
+                "taille": "15 à 30 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Sol calcaire, Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/persil.png"
             },
             {
                 "nom": "le Piment",
-                "saison": 34,
-                "taille": "87ead214-f00d-4bae-b145-a6854bb33afd",
-                "recolte": true,
-                "sol": "$1,121.67",
+                "saison": "Se plante de février à mai",
+                "taille": "30 à 150 cm de hauteur",
+                "recolte": "Se récolte de juillet a octobre",
+                "sol": "Sol sableux, Sol caillouteux ou Humus",
                 "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "conservation": "2 semaines",
+                "image": "/cat/aromates/piment.png"
             },
             {
                 "nom": "la Pimprenelle",
-                "saison": 35,
-                "taille": "44aa2b03-95f6-48c6-a16b-6efb6982f8a0",
-                "recolte": false,
-                "sol": "$3,909.46",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "saison": "Se plante au primtemps et automne",
+                "taille": "15 à 60 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Sol calcaire, Sol sableux, Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "4 jours",
+                "image": "/cat/aromates/pimprenelle.png"
             },
             {
                 "nom": "le Poivre",
-                "saison": 36,
-                "taille": "c3d8a071-1aa9-4ec1-8bb8-46d05de5e373",
-                "recolte": false,
-                "sol": "$2,877.90",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "saison": "Se plante au primtemps et automne",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte de mai à septembre",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux, Terre de bruyère ou Humus",
+                "exposition" : "Mi-ombre",
+                "conservation": "3 mois",
+                "image": "/cat/aromates/poivre.png"
             },
             {
                 "nom": "le Romarin",
-                "saison": 37,
-                "taille": "9972fe38-6645-4514-ba17-5399b7818f45",
-                "recolte": false,
-                "sol": "$1,658.20",
+                "saison": "Se plante de mars à juin",
+                "taille": "20 à 150 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Sol calcaire, Sol caillouteux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/romarin.png"
             },
             {
                 "nom": "le Safran",
-                "saison": 38,
-                "taille": "1fadf13c-31fa-403e-874b-6c0eaf5475a8",
-                "recolte": true,
-                "sol": "$2,000.52",
+                "saison": "Se plante en juillet et août",
+                "taille": "moins de 20 cm de hauteur",
+                "recolte": "Se récolte en octobre et novembre",
+                "sol": "Sol calcaire, Sol sableux ou Sol caillouteux",
                 "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "conservation": "4 ans",
+                "image": "/cat/aromates/safran.png"
             },
             {
                 "nom": "la Sarriette",
-                "saison": 39,
-                "taille": "2b31813c-0cd3-482c-b3f6-4b6c9f614990",
-                "recolte": true,
-                "sol": "$2,833.67",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "20 à 50 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Sol calcaire, Sol sableux, Sol caillouteux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "conservation": "1 an",
+                "image": "/cat/aromates/sarriette.png"
             },
             {
                 "nom": "la Sauge",
-                "saison": 40,
-                "taille": "941d484d-08c3-4a7c-86b6-771b63a5351b",
-                "recolte": true,
-                "sol": "$3,126.61",
+                "saison": "Se plante d'avril à juillet",
+                "taille": "30 à 60 cm de hauteur",
+                "recolte": "Se récolte de juin à septembre",
+                "sol": "Sol calcaire, Sol caillouteux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "conservation": "3 jours",
+                "image": "/cat/aromates/sauge.png"
             },
             {
                 "nom": "le Sésame",
-                "saison": 41,
-                "taille": "eed272ad-c2d4-4176-b57d-2e85e85f68bb",
-                "recolte": false,
-                "sol": "$2,017.55",
+                "saison": "Se plante de février à mai",
+                "taille": "60 à 100 cm de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Humus",
                 "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "conservation": "1 an",
+                "image": "/cat/aromates/sesame.png"
             },
             {
                 "nom": "le Tamarin",
-                "saison": 42,
-                "taille": "f6560415-1919-4ef2-b4b3-e2d076bfc189",
-                "recolte": true,
-                "sol": "$2,615.95",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "saison": "Se plante en avril et mai",
+                "taille": "5 à 15 m de hauteur",
+                "recolte": "Se récolte de septembre à novembre",
+                "sol": "Sol sableux, Sol caillouteux, Terre de bruyère ou Humus",
+                "exposition" : "Mi-ombre",
+                "conservation": "3 jours",
+                "image": "/cat/aromates/tamarin.png"
             },
             {
                 "nom": "le Thym",
-                "saison": 43,
-                "taille": "4e80a9b1-ade8-4352-8d7f-707f30579707",
-                "recolte": false,
-                "sol": "$2,777.47",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "20 à 60 cm de hauteur",
+                "recolte": "Se récolte de mars à juillet",
+                "sol": "Sol calcaire, Sol sableux, Sol caillouteux, Humus ou Terreau",
                 "exposition" : "Ensoleillée",
                 "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "image": "/cat/aromates/thym.png"
             },
             {
-                "nom": "laVanille",
-                "saison": 44,
-                "taille": "686b5ca9-aee0-4e31-95ab-cbaf34d7abc4",
-                "recolte": true,
-                "sol": "$2,715.86",
-                "exposition" : "Ensoleillée",
-                "conservation": "1 semaine",
-                "image": "https://st2.depositphotos.com/1001348/8036/i/600/depositphotos_80369462-stock-photo-red-tomatoes-with-cut-isolated.jpg"
+                "nom": "la Vanille",
+                "saison": "Se plante en mars et avril",
+                "taille": "5 à 15 m de hauteur",
+                "recolte": "Se récolte en mai et juin",
+                "sol": "Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "10 mois",
+                "image": "/cat/aromates/vanille.png"
             }
         
     ]

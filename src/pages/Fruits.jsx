@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import CardFruits from "../components/CardFruits";
+import '../components/cardlegumes.scss'
 
 const Fruits = () => {
   return (
     <div>
-      Fruits
+      <CardFruits />
     </div>
-  )
-}
+  );
+};
 
-export default Fruits
+export default Fruits;

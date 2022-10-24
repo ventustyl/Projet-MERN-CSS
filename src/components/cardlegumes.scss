@@ -1,0 +1,14 @@
+.legumes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+  
+    .cartelegumes, .cartefruits, .cartearomates {
+        width: 30%;
+        img{
+            width: 50%;
+        }
+    }
+}

@@ -23,6 +23,8 @@ const bloc = produits.map((itemaccueil) => {
   <p>Quand récolter : {jsonData[test][hasardliste].recolte} </p>
   <p>Mesure : {jsonData[test][hasardliste].taille} </p>
   <p>Type de sol : {jsonData[test][hasardliste].sol} </p>
+  <p>Exposition : {jsonData[test][hasardliste].exposition} </p>
+  <p>Conservation après cueillette : {jsonData[test][hasardliste].conservation} </p>
   </div>)
 
 });

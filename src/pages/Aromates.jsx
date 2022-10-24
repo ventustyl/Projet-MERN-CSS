@@ -1,9 +1,10 @@
 import React from 'react'
+import CardAromates from "../components/CardAromates";
 
 const Aromates = () => {
   return (
     <div>
-      Aromates
+    <CardAromates />
     </div>
   )
 }
