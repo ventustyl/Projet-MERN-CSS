@@ -1,16 +1,24 @@
-.contact-container {
- display: flex;
- width: 100%;
- .contact-texte {
-margin: auto;
+#contact-container {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
 
- .contact-titre {
-    position: static;
+
+  .contact-texte {
+    padding: 20px;
+    width: 50%;
     margin: auto;
-    width: 100%;
- }
-}
-form {
+
+    .contact-titre {
+      position: static;
+      margin: auto;
+      width: 100%;
+    }
+    p {
+        padding: 20px;
+    }
+  }
+  form {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -20,24 +28,23 @@ form {
     width: 30%;
 
     label {
-        font-size: 20px;
-        color: green;
-        
+      font-size: 20px;
+      color: green;
     }
     input {
-        padding: 10px;
-        width: 100%;
+      padding: 10px;
+      width: 100%;
     }
     textarea {
-        padding: 10px;
-        width: 100%;
+      padding: 10px;
+      width: 100%;
     }
     input[type="submit"] {
-margin-top: 10px;
+      margin-top: 10px;
 
-        &:hover{
-            color:green
-        }
+      &:hover {
+        color: green;
+      }
     }
-}
+  }
 }

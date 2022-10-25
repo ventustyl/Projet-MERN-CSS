@@ -14,7 +14,7 @@ const Item = pages[Math.floor(Math.random() * (2 - 0 + 1)) + 0];
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <img src={require(`../images/${Item}.jpg`)} alt="Fond" className="hero"/> 
       <h1>Le potager "Le bonheur de manger son chez soi".</h1>
@@ -38,7 +38,7 @@ const Home = () => {
 
       <Footer />
 
-    </div>
+    </>
   );
 };
 

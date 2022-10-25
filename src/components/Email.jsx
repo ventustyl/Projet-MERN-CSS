@@ -21,6 +21,7 @@ const Email = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          window.location='/'
         },
         (error) => {
           console.log(error.text);
@@ -29,12 +30,13 @@ const Email = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div id="contact-container">
       <div className="contact-texte">
         <h1 className="contact-titre">Contactez-nous</h1>
         <p>
-          
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis luctus lacus. Praesent consectetur luctus nibh, nec mattis tortor tincidunt nec. Pellentesque facilisis et dolor in pellentesque. Etiam imperdiet egestas vestibulum. Donec ut pulvinar tortor. Pellentesque blandit finibus enim, quis aliquam mi vulputate nec. Proin mi ante, bibendum interdum felis ac, interdum accumsan mi. Cras id quam ut nisl ultricies eleifend id a ipsum. Cras rutrum commodo dolor, nec auctor quam sollicitudin in. Aenean metus velit, facilisis ac ligula sed, ultrices luctus mi. Quisque a commodo augue. Nam non odio ac nulla scelerisque interdum. Suspendisse ultricies euismod tristique. Nunc id eleifend nisl. Duis eget ligula hendrerit erat varius lobortis. Sed ornare lacus quam, vel sodales enim finibus in.
         </p>
+        <p>Suivez-nous également sur les réseaux</p>
       </div>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>

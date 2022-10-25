@@ -2,7 +2,7 @@ import React from 'react'
 
 const Astuces = () => {
   return (
-    <div>
+    <div className='flex'>
       Astuces
     </div>
   )

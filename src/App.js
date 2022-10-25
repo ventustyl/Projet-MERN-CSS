@@ -18,6 +18,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { getUser } from "./actions/user.action";
+import Erreur404 from "./pages/Erreur404";
 
 //Creation de la structure des pages dans un layout avec outlet de react router dom
 const Layout = () => {
@@ -68,6 +69,11 @@ const router = createBrowserRouter([
         path: "/connexion",
         element: <Connexion />,
       },
+      {
+        path: '*',
+        element: <Erreur404/>
+      }
+
     ],
   },
 ]);
@@ -92,11 +98,11 @@ const App = () => {
   }, [uid, dispatch]);
 
   return (
-    <div>
+ 
       <UidContext.Provider value={uid}>
         <RouterProvider router={router} />
       </UidContext.Provider>
-    </div>
+  
   );
 };
 
