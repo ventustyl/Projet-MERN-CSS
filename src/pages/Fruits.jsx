@@ -4,9 +4,9 @@ import '../components/cardlegumes.scss'
 
 const Fruits = () => {
   return (
-    <div>
+    <>
       <CardFruits />
-    </div>
+    </>
   );
 };
 

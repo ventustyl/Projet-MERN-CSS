@@ -40,7 +40,7 @@ const Navbar =  () => {
       <a href="/"><img src={Logo} alt="Logo Potager" /></a>
       <ul> {listItems} 
       {uid ? (
-        <li><a href="/connexion"> {userData.pseudo} </a></li>
+        <li><a href="/connexion">Bienvenue {userData.pseudo} </a></li>
        ) : ( <li><a href="/connexion"> Connexion </a></li>
       )}
       

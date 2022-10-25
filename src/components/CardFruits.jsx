@@ -5,7 +5,8 @@ import "../components/cardlegumes.scss";
 
 const produit = jsonData["Fruits"].map((itemfruits, nb) => {
   return (
-    <div className="cartefruits" key={itemfruits}>
+    <div className="cartefruits" key={itemfruits.nom}>
+ 
       <img
         src={jsonData["Fruits"][nb].image}
         alt={jsonData["Fruits"][nb].nom}
