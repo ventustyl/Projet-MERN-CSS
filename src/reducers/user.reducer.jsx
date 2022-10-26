@@ -1,4 +1,4 @@
-import { GET_USER, UPLOAD_PICTURE } from "../actions/user.action";
+import { GET_USER, UPDATE_BIO, UPLOAD_PICTURE } from "../actions/user.action";
 
 const initialState = {};
 
@@ -11,6 +11,11 @@ switch(action.type) {
             ...state,
             picture: action.payload
         }
+        case UPDATE_BIO:
+            return{
+                ...state,
+                bio: action.payload
+            }
     default:
         return state
 }

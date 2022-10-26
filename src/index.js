@@ -13,6 +13,7 @@ import reportWebVitals from './reportWebVitals';
 import rootReducer from "./reducers";
 
 import { configureStore } from '@reduxjs/toolkit';
+import { getUsers } from './actions/users.action';
 
 
 export const store = configureStore({
@@ -21,7 +22,7 @@ export const store = configureStore({
 
 })
 
-  
+  store.dispatch(getUsers())
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
