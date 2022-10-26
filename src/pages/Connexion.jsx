@@ -4,6 +4,7 @@ import Login from "../images/log.png";
 import "../styles/connexion.scss";
 import { UidContext } from "../components/AppContext";
 import Logout from "../components/Log/Logout";
+import UpdateProfil from "../components/Admin/UpdateProfil";
 
 const Connexion = () => {
   const uid = useContext(UidContext);
@@ -15,6 +16,7 @@ const Connexion = () => {
         <div>
         <h1 className="static">Page administration</h1>        
           Bienvenue sur la partie administration
+          <UpdateProfil/>
           <Logout />
         </div>
         </>

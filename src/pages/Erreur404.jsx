@@ -8,7 +8,7 @@ const Erreur404 = () => {
 
       <img className="img-erreur" src={imgerreur404} alt="erreur 404" />
       <p>
-        Ça ne se plante pas ou ça ne pousse pas <br /> Essayer autre chose
+       Oups, ça a planté ! <br /> Essayez autre chose
       </p>
       <div>
         <a href="/">
