@@ -30,7 +30,7 @@ const UpdateImg = () => {
         onChange={(e) => setFile(e.target.files[0])}
       />
       <br/>
-      <input type="submit" value="Envoyer" />
+      <input type="submit" value="  Envoyer  " />
     </form>
   );
 };

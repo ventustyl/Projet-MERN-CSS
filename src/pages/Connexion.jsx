@@ -14,7 +14,7 @@ const Connexion = () => {
       {uid ? (
     
         <div className="bloc-admin">
-        <h1 className="static">Page administration</h1>        
+        <h1 className="static">Page profil</h1>        
        
           <UpdateProfil/>
           <Logout />
