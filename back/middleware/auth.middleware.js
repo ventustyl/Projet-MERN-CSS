@@ -10,7 +10,7 @@ module.exports.checkUser = (req, res, next) => {
         jwt.verify(token, process.env.CLE_SECRETE, async (err, decodedToken) => {
             if (err) {
                 res.locals.user = null;
-                res.cookie('jwt', '', { maxAge: 1 })
+                // res.cookie('jwt', '', { maxAge: 1 })
                 next();
             } else {
                 console.log('decoded token ' + decodedToken.id);

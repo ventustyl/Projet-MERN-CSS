@@ -1,5 +1,8 @@
 
 .profil-page {
+
+    width: 80%;
+
     margin: 80px auto 0;
     max-width: 1200px;
     flex-grow: 1;
@@ -82,7 +85,7 @@
                 transform: translateX(-50%);
                 width: 80%;
                 height: 1px;
-                background: green;
+                background: #8cff8c;;
               }
             }
           }
@@ -137,7 +140,7 @@
       }
   
       > div {
-        background: green;
+        background: #8cff8c;;
         border-radius: 20px;
         padding: 25px;
         margin: 20px 10px;
@@ -157,7 +160,7 @@
           height: 180px;
           width: 180px;
           border-radius: 46px;
-          object-fit: cover;
+          object-fit: contain;
           margin-bottom: 30px;
           box-shadow: 0 0 6px rgba(51, 51, 51, 0.363);
         }
@@ -168,8 +171,8 @@
             position: absolute;
             transform: translate(-50%, -50%);
             width: 270px;
-            background: green;
-            color: green;
+            background: #516451;;
+            color: #8cff8c;;
             border-radius: 20px;
             display: inline-block;
             padding: 9px 0;

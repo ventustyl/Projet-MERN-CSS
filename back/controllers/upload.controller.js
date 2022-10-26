@@ -4,7 +4,7 @@ const { uploadErrors } = require("../outils/errors.outils.js");
 
 // import l'image de profil
 module.exports.uploadProfil = async (req, res) => {
-  console.log(req.files.file.name);
+  // console.log(req.files.file.name);
   try {
     if (!req.files.file.name === null) {
       res.send({
@@ -26,13 +26,13 @@ module.exports.uploadProfil = async (req, res) => {
       //Utilisez le nom du champ de saisie (c'est-à-dire "avatar") pour récupérer le fichier téléchargé
       let avatar = req.files.file;
       //Utilisez la méthode mv() pour placer le fichier dans le répertoire de téléchargement (c'est-à-dire "uploads")
-      avatar.mv("../image/profil/" + avatar.name);
+      avatar.mv("../public/image/profil/" + avatar.name);
 
 console.log(req.files.file.name )
 
       UserModel.findByIdAndUpdate(
         req.body.userId,
-        { $set: { picture: "../" + req.files.file.name } },
+        { $set: { picture: "/" + req.files.file.name } },
         { new: true, upsert: true, setDefaultsOnInsert: true },
         (err, docs) => {
           if (!err)
