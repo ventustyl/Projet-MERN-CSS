@@ -3,9 +3,10 @@ import CardAromates from "../components/CardAromates";
 
 const Aromates = () => {
   return (
-    <div>
+    <>
+    <h1>Les aromates</h1>
     <CardAromates />
-    </div>
+    </>
   )
 }
 

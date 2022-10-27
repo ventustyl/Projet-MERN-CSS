@@ -4,7 +4,7 @@ import "../styles/erreur404.scss";
 
 const Erreur404 = () => {
   return (
-    <div className="flex">
+    <div className="flex1">
 
       <img className="img-erreur" src={imgerreur404} alt="erreur 404" />
       <p>

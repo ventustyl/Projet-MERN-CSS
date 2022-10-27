@@ -4,9 +4,10 @@ import '../components/cardlegumes.scss'
 
 const Legumes = () => {
   return (
-    <div>
+    <>
+    <h1>Les légumes</h1>
    <CardLegumes />
-    </div>
+    </>
   )
 }
 

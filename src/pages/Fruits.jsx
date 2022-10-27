@@ -5,6 +5,7 @@ import '../components/cardlegumes.scss'
 const Fruits = () => {
   return (
     <>
+    <h1>Les fruits</h1>
       <CardFruits />
     </>
   );

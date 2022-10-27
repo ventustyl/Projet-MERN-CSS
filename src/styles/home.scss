@@ -5,17 +5,21 @@
 }
 h1 {
   background-color: rgba(95, 211, 95, 0.5);
-  position: absolute;
   font-size: 50px;
   text-align: center;
   color: white;
   margin: auto;
   padding: 10px;
   width: 100%;
-  top:40%;
   font-family: "Dancing Script", cursive;
-}
 
+  box-shadow: inset 0px -10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0), ;
+
+}
+.titre-site {
+  position: absolute;
+  top:40%;
+}
 h2 {
   text-align: center;
   text-transform: uppercase;

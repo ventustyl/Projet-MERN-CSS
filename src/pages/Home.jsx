@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <Navbar />
       <img src={require(`../images/${Item}.jpg`)} alt="Fond" className="hero"/> 
-      <h1>Le potager "Le bonheur de manger son chez soi".</h1>
+      <h1 className="titre-site">Le potager "Le bonheur de manger son chez soi".</h1>
       <h2>Venez partager un moment de détente et de nature</h2>
       <div className="boutonduo">
       <a href={`/${Item}`}>  <button className="btn1"> {Item}</button></a>
@@ -35,6 +35,7 @@ const Home = () => {
        <Card />
 
       </section>
+ 
 
       <Footer />
 

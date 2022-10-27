@@ -88,6 +88,8 @@ const UpdateProfil = () => {
                     );
                   }
                 }
+                // Rajouter pour corriger le souci avec le map et le return
+                return null;
               })}
             </ul>
           </div>
@@ -120,6 +122,8 @@ const UpdateProfil = () => {
                     );
                   }
                 }
+                // Rajouter pour corriger le souci avec le map et le return
+                return null;
               })}
             </ul>
           </div>

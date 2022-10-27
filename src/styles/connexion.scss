@@ -8,6 +8,7 @@
     flex-grow: 1;
     .static{
       position: static;
+      box-shadow: inset 0px -10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0), inset 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0)
     }
     .icons {
       top: 55px;
@@ -140,7 +141,7 @@
       }
   
       > div {
-        background: #8cff8c;;
+        background: rgba(95, 211, 95, 0.5);;
         border-radius: 20px;
         padding: 25px;
         margin: 20px 10px;
@@ -270,7 +271,7 @@
         top: 10%;
         left: 50%;
         transform: translate(-100%);
-        background: green;
+        background: rgb(95, 211, 95);
         padding: 25px;
         border-radius: 20px;
         box-shadow: 0 0 2px rgba(131, 130, 130, 0.356);
