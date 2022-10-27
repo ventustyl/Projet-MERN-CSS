@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { updateBio } from "../../actions/user.action";
 import { dateParser } from "../Utils";
+import FollowHandler from "./FollowHandler";
 import UpdateImg from "./UpdateImg";
 
 const UpdateProfil = () => {
@@ -83,12 +84,16 @@ const UpdateProfil = () => {
                           alt="utilisateur"
                         />
                         <h4>{user.pseudo}</h4>
-                        <p>A suivre</p>
+                        <div className="follow-handler">
+                          <FollowHandler
+                            idToFollow={user._id}
+                            type={"suggestion"}
+                          />
+                        </div>
                       </li>
                     );
                   }
                 }
-                // Rajouter pour corriger le souci avec le map et le return
                 return null;
               })}
             </ul>
@@ -98,7 +103,7 @@ const UpdateProfil = () => {
       {followersPopup && (
         <div className="popup-profil-container">
           <div className="modal">
-            <h3>Abonnements</h3>
+            <h3>Abonnés</h3>
             <span className="cross" onClick={() => setFollowersPopup(false)}>
               &#10005;
             </span>
@@ -117,12 +122,16 @@ const UpdateProfil = () => {
                           alt="utilisateur"
                         />
                         <h4>{user.pseudo}</h4>
-                        <p>A suivre</p>
+                        <div className="follow-handler">
+                          <FollowHandler
+                            idToFollow={user._id}
+                            type={"suggestion"}
+                          />
+                        </div>
                       </li>
                     );
                   }
                 }
-                // Rajouter pour corriger le souci avec le map et le return
                 return null;
               })}
             </ul>

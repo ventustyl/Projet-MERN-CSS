@@ -1,3 +1,4 @@
+// Fonction qui traite le timestamp et qui le transforme
 export const dateParser = (num) => {
   let options = {
     hour: "2-digit",
@@ -12,4 +13,15 @@ export const dateParser = (num) => {
   let date = new Date(timestamp).toLocaleDateString("fr-FR", options);
 
   return date.toString();
+};
+
+
+// Fonction pour voir si c'est vide ou non
+export const isEmpty = (value) => {
+  return (
+    value === undefined ||
+    value === null ||
+    (typeof value === "object" && Object.keys(value).length === 0) ||
+    (typeof value === "string" && value.trim().length === 0)
+  );
 };
