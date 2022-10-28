@@ -3,7 +3,8 @@ import { useSelector } from "react-redux";
 import FollowHandler from "../Admin/FollowHandler";
 import { dateParser, isEmpty } from "../Utils";
 import Message from '../../images/icon/message1.svg'
-import Heart from '../../images/icon/heart.svg'
+
+import LikeButton from "./LikeButton";
 
 
 const Cards = ({ post }) => {
@@ -55,7 +56,9 @@ const Cards = ({ post }) => {
                 <span>{dateParser(post.createdAt)}</span>
               </div>
               <p className="text-card">{post.message}</p>
-              {post.picture ? ( <img src={post.picture} className="img-flux" alt="perso"  /> ) : <></>}
+         
+              {post.picture ? ( <img src={ window.location.origin + "/image/post" + post.picture } className="img-flux" alt="perso"  /> ) : <></>}
+    
               {post.video && (
               <iframe
                 width="500"
@@ -72,8 +75,8 @@ const Cards = ({ post }) => {
                 <img src={Message} alt="icon-message"/>
                 <span>{post.comments.length}</span>
               </div>
-              <h6>Like button</h6>
-              <img src={Heart} alt="J'aime" />
+       <LikeButton post={post}/>
+          
             </div>
                 
           

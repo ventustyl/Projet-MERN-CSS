@@ -10,7 +10,8 @@ module.exports.readPost = (req, res) => {
     if (!err) res.send(data);
     // rangé dans le sens inverse createdAt: -1
     else console.log("L'erreur : " + err);
-  }).sort({ createdAt: -1 });
+    return null }).sort({ createdAt: -1 });
+
 };
 
 // Creer un post l'ensemble des posts
@@ -40,13 +41,13 @@ module.exports.createPost = async (req, res) => {
       //Utilisez le nom du champ de saisie (c'est-à-dire "avatar") pour récupérer le fichier téléchargé
       let file = req.files.file;
       //Utilisez la méthode mv() pour placer le fichier dans le répertoire de téléchargement (c'est-à-dire "uploads")
-     file.mv("../image/post/"+ Date.now() + file.name);
+     file.mv("../public/image/post/"+ Date.now() + file.name);
 
    const newPost = new postModel({
         posterId: req.body.posterId,
         message: req.body.message,
         video: req.body.video,
-        picture: req.files !== null ? "../image/post/" + Date.now() + file.name : "",
+        picture: req.files !== null ? "/" + Date.now() + file.name : "",
         likers: [],
         comments: [],
       });

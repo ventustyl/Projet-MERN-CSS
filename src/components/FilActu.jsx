@@ -6,15 +6,29 @@ import { isEmpty } from "./Utils";
 
 const FilActu = () => {
   const [loadPost, setLoadPost] = useState(true);
+  const [count, setCount] = useState(3)
   const dispatch = useDispatch();
   const posts = useSelector((state)=> state.rootReducer.postReducer)
 
+
+  //Fonction qui mesure la taille globale et qui déclenche le setLoadPost
+const loadMore = ()=> {
+  if (window.innerHeight + document.documentElement.scrollTop + 1 > document.scrollingElement.scrollHeight) {
+    setLoadPost(true)
+  }
+}
+
+
   useEffect(() => {
     if (loadPost) {
-      dispatch(getPosts());
+      dispatch(getPosts(count));
       setLoadPost(false);
+      setCount(count + 3)
     }
-  }, [loadPost, dispatch]);
+
+    window.addEventListener('scroll', loadMore)
+    return ()=> window.removeEventListener('scrool', loadMore)
+  }, [loadPost, dispatch, count]);
 
   return (
   <div className="thread-container">
