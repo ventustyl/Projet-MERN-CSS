@@ -28,7 +28,7 @@ const bloc = produits.map((itemaccueil) => {
   </div>)
 
 });
-
+// Bloc card légumes
 const Card = () => {
   return (
   
