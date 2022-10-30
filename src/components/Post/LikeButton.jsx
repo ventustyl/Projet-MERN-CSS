@@ -60,6 +60,7 @@ const LikeButton = ({ post }) => {
         {uid && liked && (
           <img src={HeartX} onClick={unlike} alt="unlike" className="heart" />
         )}
+ 
         <span>{post.likers.length}</span>
       </div>
     );

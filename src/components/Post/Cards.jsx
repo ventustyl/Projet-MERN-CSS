@@ -76,7 +76,7 @@ const Cards = ({ post }) => {
                 <span>{post.comments.length}</span>
               </div>
        <LikeButton post={post}/>
-          
+
             </div>
                 
           
