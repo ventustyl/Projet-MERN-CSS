@@ -1,16 +1,30 @@
 import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import FollowHandler from "../Admin/FollowHandler";
 import { dateParser, isEmpty } from "../Utils";
-import Message from '../../images/icon/message1.svg'
+import Message from "../../images/icon/message1.svg";
+import Edit from "../../images/icon/edit.svg";
 
 import LikeButton from "./LikeButton";
-
+import { updatePost } from "../../actions/post.action";
+import DeleteCards from "./DeleteCards";
+import CardsComments from "./CardsComments";
 
 const Cards = ({ post }) => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isUpdate, setIsUpdate] = useState(false);
+  const [textUpdate, setTextUpdate] = useState(null);
+  const [showComments, setShowComments] = useState(false);
   const userData = useSelector((state) => state.rootReducer.userReducer);
   const usersData = useSelector((state) => state.rootReducer.usersReducer);
+  const dispatch = useDispatch();
+
+  const updateItem = () => {
+    if (textUpdate) {
+      dispatch(updatePost(post._id, textUpdate));
+    }
+    setIsUpdate(false);
+  };
 
   useEffect(() => {
     !isEmpty(usersData[0]) && setIsLoading(false);
@@ -52,34 +66,68 @@ const Cards = ({ post }) => {
                       .join("")}
                 </h3>
                 {post.posterId !== userData._id && (
-                <FollowHandler idToFollow={post.posterId} type={"card"} />)}
+                  <FollowHandler idToFollow={post.posterId} type={"card"} />
+                )}
                 <span>{dateParser(post.createdAt)}</span>
               </div>
-              <p className="text-card">{post.message}</p>
-         
-              {post.picture ? ( <img src={ window.location.origin + "/image/post" + post.picture } className="img-flux" alt="perso"  /> ) : <></>}
-    
-              {post.video && (
-              <iframe
-                width="500"
-                height="300"
-                src={post.video}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title={post._id}
-              ></iframe>
-            )}
-            <div className="card-footer">
-              <div className="comment-icon">
-                <img src={Message} alt="icon-message"/>
-                <span>{post.comments.length}</span>
-              </div>
-       <LikeButton post={post}/>
+              {isUpdate === false && (
+                <p className="text-card">{post.message}</p>
+              )}
+              {isUpdate && (
+                <div className="update-post">
+                  <textarea
+                    defaultValue={post.message}
+                    onChange={(e) => setTextUpdate(e.target.value)}
+                  />
+                  <div className="button-container">
+                    <button className="btn" onClick={updateItem}>
+                      Valider les modications
+                    </button>
+                  </div>
+                </div>
+              )}
 
-            </div>
-                
-          
+              {post.picture ? (
+                <img
+                  src={window.location.origin + "/image/post" + post.picture}
+                  className="img-flux"
+                  alt="perso"
+                />
+              ) : (
+                <></>
+              )}
+
+              {post.video && (
+                <iframe
+                  width="500"
+                  height="300"
+                  src={post.video}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title={post._id}
+                ></iframe>
+              )}
+              {userData._id === post.posterId && (
+                <div className="button-container">
+                  <div onClick={() => setIsUpdate(!isUpdate)}>
+                    <img src={Edit} alt="btn-edit" />
+                  </div>
+                  <DeleteCards id={post._id} />
+                </div>
+              )}
+              <div className="card-footer">
+                <div className="comment-icon">
+                  <img
+                    onClick={() => setShowComments(!showComments)}
+                    src={Message}
+                    alt="icon-message"
+                  />
+                  <span>{post.comments.length}</span>
+                </div>
+                <LikeButton post={post} />
+              </div>
+              {showComments && <CardsComments post={post} />}
             </div>
           </div>
         </>
