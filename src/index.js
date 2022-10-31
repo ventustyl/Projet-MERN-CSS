@@ -14,6 +14,7 @@ import rootReducer from "./reducers";
 
 import { configureStore } from '@reduxjs/toolkit';
 import { getUsers } from './actions/users.action';
+import { getPosts } from './actions/post.action';
 
 
 export const store = configureStore({
@@ -23,6 +24,7 @@ export const store = configureStore({
 })
 
   store.dispatch(getUsers())
+  store.dispatch(getPosts())
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

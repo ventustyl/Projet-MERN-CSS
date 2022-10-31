@@ -8,6 +8,7 @@ import UpdateImg from "./UpdateImg";
 const UpdateProfil = () => {
   const userData = useSelector((state) => state.rootReducer.userReducer);
   const usersData = useSelector((state) => state.rootReducer.usersReducer);
+  const error = useSelector((state) => state.rootReducer.errorReducer.userError);
   const [bio, setBio] = useState("");
   const [updateForm, setUpdateForm] = useState(false);
   const dispatch = useDispatch();
@@ -30,6 +31,8 @@ const UpdateProfil = () => {
             alt="profil"
           />
           <UpdateImg />
+          <p>{error.maxSize}</p>
+          <p>{error.format}</p>
         </div>
         <div className="right-part">
           <div className="bio-update">

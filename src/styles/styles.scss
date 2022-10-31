@@ -24,9 +24,13 @@ body {
       margin-top: 80px;
       padding-bottom: 200px;
       margin-bottom: 200px;
+      .flextest{
+        display: flex;
       .main {
         margin-bottom: 200px;
       
+  
+
       article {
         width: 100%;
         white-space: pre-wrap;
@@ -98,4 +102,5 @@ body {
       }}
     }
   }
+}
 }

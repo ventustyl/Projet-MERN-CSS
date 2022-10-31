@@ -12,6 +12,7 @@ import Journal from "./pages/Journal";
 import Legumes from "./pages/Legumes";
 
 import "./styles/styles.scss";
+import "./styles/connexion.scss"
 import Footer from "./components/Footer";
 import { UidContext } from "./components/AppContext";
 import { useEffect, useState } from "react";
@@ -19,6 +20,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { getUser } from "./actions/user.action";
 import Erreur404 from "./pages/Erreur404";
+import Trending from "./pages/Trending";
 
 //Creation de la structure des pages dans un layout avec outlet de react router dom
 const Layout = () => {
@@ -44,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/journal",
         element: <Journal />,
+      },
+      {
+        path: "/trending",
+        element: <Trending />,
       },
       {
         path: "/legumes",
