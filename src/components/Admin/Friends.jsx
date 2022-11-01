@@ -43,7 +43,7 @@ const Friends = () => {
 
   return (
     <div className="get-friends-container">
-      <h4>Suggestions</h4>
+      <h4>Amis suggérés</h4>
       {isLoading ? (
         <div className="icon">
           <i className="fas fa-spinner fa-pulse"></i>

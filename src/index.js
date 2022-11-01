@@ -24,7 +24,7 @@ export const store = configureStore({
 })
 
   store.dispatch(getUsers())
-  store.dispatch(getPosts())
+  store.dispatch(getPosts)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
