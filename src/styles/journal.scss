@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  width: 100%;
+  .control-reseau {
+    width: 50%;
+    .journal-header {
+      .post-container {
+        margin: auto;
+        width: 90%;
+        background: rgb(201, 255, 150);
+        .data {
+       
+          display: flex;
+          width: 90%;
+          margin: auto;
+          align-items: center;
+          a {
+            width: 20%;
+            .user-info {
+              img {
+                width: 100%;
+                object-fit: scale-down;
+              }
+            }
+          }
+          p{
+            
+            display: flex;
+            flex-direction: column;
+           h3{
+            margin: 0;
+           }
+          }
+        }
+        .post-form{
+            margin: auto;
+            width: 90%;
+            textarea{
+                width: 100%;
+                height: 100px;
+                padding: 10px;
+            }
+            .footer-form{
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                .icon{
+                    width: 100px;
+                    height: 50px;
+                    img{
+                        width: 50px;
+                        height: 50px;
+
+                    }
+                    input{
+                        width: 40px;
+                        height: 40px;
+                        opacity: 0;
+                        position: relative;
+                        top: -31px;
+                        left: -46px;
+                    }
+                }
+                .btn-send{
+
+                    .send{
+                        padding: 5px;
+                        background: green;
+                        &:hover{
+                            filter: brightness(110%);
+                            transform: translateZ(2px);
+                        }
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+}

@@ -14,8 +14,8 @@ const Journal = () => {
   return (
     <main className="titre-page">
       <h1>Réseau Social</h1>
-      <div className="flextest">
-        <div className="main">
+      <section className="container">
+        <div className="control-reseau">
           <div className="journal-header">
             {uid ? <NewPostForm /> : <Log signin={true} signup={false} />}
           </div>
@@ -29,7 +29,7 @@ const Journal = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 };

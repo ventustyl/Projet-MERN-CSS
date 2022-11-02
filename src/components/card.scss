@@ -42,28 +42,19 @@ flex-wrap: wrap;
   div{
     margin: auto;
     width: 25%;
-    &:nth-child(45), &:nth-child(44), &:nth-child(43){
-        margin-bottom: 200px;
+    &:nth-child(45){
+        margin-bottom: 250px;
       }
 
     @media (max-width: 885px) {
        width: 40%;
        margin: auto;
-    &:nth-child(44), &:nth-child(43){
-        margin-bottom: 0px;
-      }
+
 
       }
       @media (max-width: 550px) {
         width: 95%;
-        margin: auto;
-        &:nth-child(44), &:nth-child(43){
-            margin-bottom: 0px;
-          }
-        &:nth-child(45){
-            margin-bottom: 200px;
-          }
-       }
+        margin: auto;  
     }
 
 
@@ -72,5 +63,4 @@ width: 80%;
 text-align: center;
  
   }
-}
-
+  }}

@@ -74,23 +74,26 @@ const NewPostForm = () => {
           <i className="fas fa-spinner fa-spin"></i>
         ) : (
           <>
+          
             <div className="data">
-              <p>
-                <span>{userData.following ? userData.following.length : 0}</span>{" "}
-                Abonnement
-                {userData.following && userData.following.length > 1 ? "s" : null}
-              </p>
-              <p>
-                <span>{userData.followers ? userData.followers.length : 0}</span>{" "}
-                Abonné
-                {userData.followers && userData.followers.length > 1 ? "s" : null}
-              </p>
-            </div>
             <NavLink to="/connexion"  >
               <div className="user-info">
                 <img src={    window.location.origin + "/image/profil" +userData.picture} alt="user-img" />
               </div>
             </NavLink>
+            <p>
+            <h3>{userData.pseudo}</h3>
+            
+                <span>{userData.following ? userData.following.length : 0}{" "}
+                Abonnement
+                {userData.following && userData.following.length > 1 ? "s" : null}</span>
+              
+                <span>{userData.followers ? userData.followers.length : 0}{" "}
+                Abonné
+                {userData.followers && userData.followers.length > 1 ? "s" : null} </span>
+              </p>
+            </div>
+           
             <div className="post-form">
               <textarea
                 name="message"
