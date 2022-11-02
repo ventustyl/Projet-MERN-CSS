@@ -2,14 +2,14 @@
   display: flex;
   width: 100%;
   .control-reseau {
-    width: 50%;
+    width: 100%;
     .journal-header {
       .post-container {
         margin: auto;
         width: 90%;
-        background: rgb(201, 255, 150);
+        background: rgba(95, 211, 95, 0.5);
+        border-radius: 30px;
         .data {
-       
           display: flex;
           width: 90%;
           margin: auto;
@@ -23,56 +23,120 @@
               }
             }
           }
-          p{
-            
+          div {
             display: flex;
             flex-direction: column;
-           h3{
-            margin: 0;
-           }
+            h3 {
+              margin: 0;
+            }
           }
         }
-        .post-form{
-            margin: auto;
-            width: 90%;
-            textarea{
+        .post-form {
+          margin: auto;
+          width: 90%;
+          textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            resize: none;
+          }
+          .card-container {
+            list-style-type: none;
+            display: flex;
+            width: 100%;
+
+            .card-left {
+              width: 20%;
+              img {
                 width: 100%;
-                height: 100px;
-                padding: 10px;
+              }
             }
-            .footer-form{
-                display: flex;
-                align-items: center;
-                justify-content: end;
-                .icon{
-                    width: 100px;
-                    height: 50px;
-                    img{
-                        width: 50px;
-                        height: 50px;
-
-                    }
-                    input{
-                        width: 40px;
-                        height: 40px;
-                        opacity: 0;
-                        position: relative;
-                        top: -31px;
-                        left: -46px;
-                    }
+            .card-right {
+              width: 80%;
+              .card-header {
+                width: 100%;
+              }
+              .content {
+                width: 70%;
+                p {
+                  width: 100%;
+                  word-break: break-all;
                 }
-                .btn-send{
-
-                    .send{
-                        padding: 5px;
-                        background: green;
-                        &:hover{
-                            filter: brightness(110%);
-                            transform: translateZ(2px);
-                        }
-                    }
+                img {
+                  width: 50%;
                 }
+              }
             }
+          }
+          .footer-form {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .icon {
+              width: 100px;
+              height: 50px;
+              img {
+                width: 50px;
+                height: 50px;
+              }
+              input {
+                width: 40px;
+                height: 40px;
+                opacity: 0;
+                position: relative;
+                top: -31px;
+                left: -46px;
+              }
+            }
+            .btn-send {
+              .send,
+              .cancel {
+                margin-left: 20px;
+                padding: 5px;
+                background: rgba(95, 211, 95, 0.5);
+                &:hover {
+                  filter: brightness(110%);
+                  transform: translateZ(2px);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .thread-container {
+      margin: auto;
+      width: 90%;
+
+      border-radius: 30px;
+      .fa-3x {
+        .card-container {
+          margin: 25px auto 50px;
+          display: flex;
+          background: rgba(95, 211, 95, 0.5);
+          .card-left {
+            width: 20%;
+            img {
+              width: 100%;
+              object-fit: scale-down;
+            }
+          }
+          .card-right {
+            width: 80%;
+            .card-header {
+              .pseudo{
+              display: flex;
+              align-items: center;
+          
+              }
+              .img-flux{
+                width: 100%;
+              }
+              .card-footer{
+                margin-bottom: 30px;
+              }
+            }
+          }
         }
       }
     }
