@@ -3,8 +3,8 @@ import { UidContext } from "../components/AppContext";
 import FilActu from "../components/FilActu";
 import NewPostForm from "../components/Post/NewPostForm";
 import Log from "../components/Log";
-import "../styles/styles.scss";
-import "../styles/connexion.scss";
+import '../styles/journal.scss'
+
 import Tendances from "../components/Tendances";
 import Friends from "../components/Admin/Friends";
 
@@ -12,7 +12,7 @@ const Journal = () => {
   const uid = useContext(UidContext);
 
   return (
-    <div className="flex">
+    <main className="titre-page">
       <h1>Réseau Social</h1>
       <div className="flextest">
         <div className="main">
@@ -30,7 +30,7 @@ const Journal = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import jsonData from "./listing.json";
 
-import "../components/cardlegumes.scss";
+import "../components/card.scss";
 
 const produit = jsonData["Fruits"].map((itemAromates, nb) => {
   return (

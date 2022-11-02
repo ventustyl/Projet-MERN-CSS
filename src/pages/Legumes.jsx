@@ -4,10 +4,10 @@ import '../components/cardlegumes.scss'
 
 const Legumes = () => {
   return (
-    <div className='flex'>
+    <main className='titre'>
     <h1>Les légumes</h1>
    <CardLegumes />
-    </div>
+    </main>
   )
 }
 
