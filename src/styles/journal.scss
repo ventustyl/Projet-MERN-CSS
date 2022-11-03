@@ -25,12 +25,13 @@
 
             .user-info {
               img {
-                width: 100%;
+                width: 80%;
                 object-fit: scale-down;
               }
             }
           }
           div {
+            margin-left: 10px;
             display: flex;
             flex-direction: column;
             h3 {
@@ -136,6 +137,10 @@
           display: flex;
           background: rgba(95, 211, 95, 0.5);
           padding: 10px;
+          background-image: url('../images/pngegg.png');
+          background-repeat: no-repeat;
+          background-size: 40%;
+          background-position: left 1px bottom;
           &:last-child {
             margin-bottom: 200px;
           }
@@ -178,7 +183,8 @@
                 word-break: break-all;
               }
               .img-flux {
-                width: 60%;
+                padding: 10px;
+                width: 90%;
                 margin: auto;
                 @media (max-width: 885px) {
                   width: 100%;
@@ -437,6 +443,7 @@
           margin: 25px auto 50px;
           display: flex;
           background: rgba(95, 211, 95, 0.5);
+    
           .card-left {
             width: 20%;
             img {
