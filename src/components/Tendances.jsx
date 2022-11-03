@@ -23,7 +23,7 @@ const Trends = () => {
 
   return (
     <div className="trending-container">
-      <h4>Trending</h4>
+      <h4>Les posts les plus liker</h4>
       <NavLink to="/trending">
         <ul>
           {trendList.length &&

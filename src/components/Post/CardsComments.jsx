@@ -30,7 +30,7 @@ const CardsComments = ({ post }) => {
         <div
           className={
             comment.commenterId === userData._id
-              ? "comment-container client"
+              ? "comment-container-client"
               : "comment-container"
           }
           key={comment._id}

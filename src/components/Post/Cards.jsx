@@ -5,7 +5,6 @@ import { dateParser, isEmpty } from "../Utils";
 import Message from "../../images/icon/message1.svg";
 import Edit from "../../images/icon/edit.svg";
 
-
 import LikeButton from "./LikeButton";
 import { updatePost } from "../../actions/post.action";
 import DeleteCards from "./DeleteCards";
@@ -110,24 +109,26 @@ const Cards = ({ post }) => {
                 ></iframe>
               )}
               {userData._id === post.posterId && (
+                
                 <div className="button-container">
                   <div onClick={() => setIsUpdate(!isUpdate)}>
                     <img src={Edit} alt="btn-edit" />
                   </div>
+
                   <DeleteCards id={post._id} />
                 </div>
               )}
-              <div className="card-footer">
-                <div className="comment-icon">
-                  <img
-                    onClick={() => setShowComments(!showComments)}
-                    src={Message}
-                    alt="icon-message"
-                  />
-                  <span>{post.comments.length}</span>
-                </div>
+              <div className="comment-icon">
+                <img
+                  onClick={() => setShowComments(!showComments)}
+                  src={Message}
+                  alt="icon-message"
+                />
+                <span>{post.comments.length}</span>
+
                 <LikeButton post={post} />
               </div>
+
               {showComments && <CardsComments post={post} />}
             </div>
           </div>
