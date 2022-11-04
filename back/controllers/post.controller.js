@@ -18,15 +18,24 @@ module.exports.readPost = (req, res) => {
 module.exports.createPost = async (req, res) => {
 
   try {
-    if (!req.files.file.name === null) {
-      res.send({
-        message: "No file uploaded",
+    if (!req.files === true) {
+      const newPost = new postModel({
+        posterId: req.body.posterId,
+        message: req.body.message,
+        video: req.body.video,
+        picture:  "",
+        likers: [],
+        comments: [],
       });
+    
+
+    const post = await newPost.save();
+    return res.status(201).json(post);
    
     } else if (
       // Validation du format d'image (*.jpg, *png, *.jpeg)
       req.files.file.mimetype !== "image/jpg" &&
-      req.files.file.mimetype !== "image/png" &&
+     // req.files.file.mimetype !== "image/png" &&
       req.files.file.mimetype !== "image/jpeg"
     ) {
       throw Error("invalid file");

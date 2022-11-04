@@ -94,6 +94,9 @@ section {
     font-family: "Dancing Script", cursive;
     font-size: 30px;
     margin: 2px auto;
+    &::first-letter{
+      text-transform: uppercase;
+    }
   }
 }
 section {

@@ -87,7 +87,7 @@ const NewPostForm = () => {
               </div>
             </NavLink>
             <div>
-              <h3>{userData.pseudo}</h3>
+              <h3>{userData.pseudo}{" "}{userData.bio}</h3>
 
               <span>
                 {userData.following ? userData.following.length : 0} Abonnement
@@ -109,7 +109,7 @@ const NewPostForm = () => {
             <textarea
               name="message"
               id="message"
-              placeholder="Quoi de neuf ?"
+              placeholder="Quoi de neuf ? *(Photo obligatoire taille max: 1Mo)"
               onChange={(e) => setMessage(e.target.value)}
               value={message}
             />
