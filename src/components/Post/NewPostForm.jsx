@@ -109,7 +109,7 @@ const NewPostForm = () => {
             <textarea
               name="message"
               id="message"
-              placeholder="Quoi de neuf ? *(Photo obligatoire taille max: 1Mo)"
+              placeholder="Quoi de neuf ? "
               onChange={(e) => setMessage(e.target.value)}
               value={message}
             />

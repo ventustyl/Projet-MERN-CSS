@@ -35,7 +35,7 @@ module.exports.createPost = async (req, res) => {
     } else if (
       // Validation du format d'image (*.jpg, *png, *.jpeg)
       req.files.file.mimetype !== "image/jpg" &&
-     // req.files.file.mimetype !== "image/png" &&
+      req.files.file.mimetype !== "image/png" &&
       req.files.file.mimetype !== "image/jpeg"
     ) {
       throw Error("invalid file");

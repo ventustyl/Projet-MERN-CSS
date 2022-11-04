@@ -3,6 +3,7 @@ import { UidContext } from "../components/AppContext";
 import FilActu from "../components/FilActu";
 import NewPostForm from "../components/Post/NewPostForm";
 import Log from "../components/Log";
+
 import '../styles/journal.scss'
 
 import Tendances from "../components/Tendances";

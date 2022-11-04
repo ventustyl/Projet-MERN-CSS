@@ -36,7 +36,7 @@ const UpdateProfil = () => {
         </div>
         <div className="right-part">
           <div className="bio-update">
-            <h3>Informations</h3>
+            <h3>Statut personnalisé</h3>
             {updateForm === false && (
               <>
                 <p onClick={() => setUpdateForm(!updateForm)}>{userData.bio}</p>

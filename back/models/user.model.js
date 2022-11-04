@@ -41,7 +41,7 @@ const userSchema = new mongoose.Schema(
     },
     bio :{
       type: String,
-      max: 1024,
+      max: 32,
     },
     followers: {
         //tableau des utilisateurs qui nous suivent avec des ID
