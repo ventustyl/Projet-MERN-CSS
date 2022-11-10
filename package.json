@@ -1,5 +1,6 @@
 {
   "name": "front",
+  "homepage": "https://evinformatique.net/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -51,8 +52,8 @@
   "react-dotenv": {
     "whitelist": [
       "http://localhost:5000",
-      "http://localhost:3000"
-
+      "http://localhost:3000",
+      "https://evinformatique.net/"
     ]
   }
 }

@@ -76,7 +76,7 @@ const router = createBrowserRouter([
         element: <Connexion />,
       },
       {
-        path: '*',
+        path: '/*',
         element: <Erreur404/>
       }
 
