@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { UidContext } from "../components/AppContext";
 import FilActu from "../components/FilActu";
 import NewPostForm from "../components/Post/NewPostForm";
-import Log from "../components/Log";
+// import Log from "../components/Log";
 
 import '../styles/journal.scss'
 
@@ -18,7 +18,7 @@ const Journal = () => {
       <section className="container">
         <div className="control-reseau">
           <div className="journal-header">
-            {uid ? <NewPostForm /> : <Log signin={true} signup={false} />}
+            {uid ? <NewPostForm /> : ""} 
           </div>
           <FilActu />
         </div>

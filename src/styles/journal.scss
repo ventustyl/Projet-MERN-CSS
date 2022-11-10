@@ -310,12 +310,12 @@
       .wrapper {
         .trending-container {
           position: fixed;
-          width: 45%;
+          width: 48%;
           margin: auto;
           background: rgba(95, 211, 95, 0.5);
           border-radius: 30px;
-          top: 130px;
-          padding-left: 20px;
+          top: 145px;
+          padding: 10px  ;
           h4 {
             text-align: center;
             font-size: 30px;
@@ -323,7 +323,11 @@
           a {
             color: black;
             text-decoration: none;
+            width: 100%;
+     
+       
             ul {
+         
               li {
                 display: flex;
                 align-items: center;
@@ -335,7 +339,7 @@
                   }
                 }
                 .trend-content {
-                  width: 80%;
+                  width: 90%;
                   word-break: break-word;
                   padding: 12px;
                   p {

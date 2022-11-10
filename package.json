@@ -27,6 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "essai" : "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -51,6 +52,7 @@
     "whitelist": [
       "http://localhost:5000",
       "http://localhost:3000"
+
     ]
   }
 }

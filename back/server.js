@@ -1,3 +1,6 @@
+// Test unitaire par jest 
+// import { jest } from '@jest/globals';
+
 // Appel de express
 const express = require('express');
 
