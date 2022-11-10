@@ -11,12 +11,12 @@ import Logo from "../images/icon.png";
 
 // Variable qui contient les pages
 const pages = [
-  "journal",
-  "legumes",
-  "fruits",
-  "aromates",
-  "astuces",
-  "contact",
+  "Journal",
+  "Legumes",
+  "Fruits",
+  "Aromates",
+  "Astuces",
+  "Contact",
 ];
 const listItems = pages.map((link) => (
   <li key={link}>
