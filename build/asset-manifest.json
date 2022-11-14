@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2e74855d.css",
-    "main.js": "/static/js/main.507def6f.js",
+    "main.js": "/static/js/main.cef3ea4c.js",
     "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
     "static/media/Calendrier-legumes.jpg": "/static/media/Calendrier-legumes.ec1365b5608989c9c06c.jpg",
     "static/media/Legumes.jpg": "/static/media/Legumes.36f4cf9489be6d5f8843.jpg",
@@ -25,11 +25,11 @@
     "static/media/checked.svg": "/static/media/checked.26a4ba05c1dc75e674ee3280d6cfa326.svg",
     "static/media/check.svg": "/static/media/check.a14bd8fb717d3d96a5dfad5f0078a8bf.svg",
     "main.2e74855d.css.map": "/static/css/main.2e74855d.css.map",
-    "main.507def6f.js.map": "/static/js/main.507def6f.js.map",
+    "main.cef3ea4c.js.map": "/static/js/main.cef3ea4c.js.map",
     "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e74855d.css",
-    "static/js/main.507def6f.js"
+    "static/js/main.cef3ea4c.js"
   ]
 }
